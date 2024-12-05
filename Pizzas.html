@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaria Delícia - Cardápio de Pizzas Italianas</title>
+    <!-- Link para o Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .pizza-item {
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .pizza-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .pizza-item img {
+            border-radius: 10px;
+            max-width: 100%;
+            height: auto;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 50px;
+        }
+
+        .price {
+            font-size: 20px;
+            font-weight: bold;
+            color: #e74c3c;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="bg-dark text-white text-center py-5">
+        <h1>Pizzaria Delícia - Receitas Italianas</h1>
+        <p>Deliciosas opções de pizzas gourmet para você saborear!</p>
+    </header>
+
+    <div class="container my-5">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+
+            <!-- Pizza Margherita -->
+            <div class="col">
+                <div class="pizza-item card h-100">
+                    <img src="https://s2-receitas.glbimg.com/wb7DIMyCpEyV07sTAtcDWD8HQjw=/0x0:1200x675/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2024/h/r/EfCbvqTbeDRAD3Lzc5xA/pizza-margherita.jpg"
+                        class="card-img-top" alt="Pizza Margherita">
+                    <div class="card-body">
+                        <h5 class="card-title">Pizza Margherita</h5>
+                        <p class="card-text">Tomate fresco, mozzarella de búfala, manjericão e azeite extra virgem.</p>
+                        <p class="price">R$ 49,90</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pizza 4 Queijos -->
+            <div class="col">
+                <div class="pizza-item card h-100">
+                    <img src="https://redefoodservice.com.br/wp-content/uploads/2023/07/Pizza-Quatro-Queijos.jpg" class="card-img-top"
+                        alt="Pizza 4 Queijos">
+                    <div class="card-body">
+                        <h5 class="card-title">Pizza 4 Queijos</h5>
+                        <p class="card-text">Mozzarella, gorgonzola, parmesão e queijo brie.</p>
+                        <p class="price">R$ 59,90</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pizza Quatro Estações -->
+            <div class="col">
+                <div class="pizza-item card h-100">
+                    <img src="https://brisoubar.com/wp-content/uploads/2021/10/2_Pizza_QuatroEstacoes_53-scaled.jpg" class="card-img-top"
+                        alt="Pizza Quatro Estações">
+                    <div class="card-body">
+                        <h5 class="card-title">Pizza Quatro Estações</h5>
+                        <p class="card-text">Presunto de parma, cogumelos, alcachofra e azeitonas.</p>
+                        <p class="price">R$ 69,90</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pizza Di Pesto -->
+            <div class="col">
+                <div class="pizza-item card h-100">
+                    <img src="https://staticcookist.akamaized.net/wp-content/uploads/sites/21/2023/08/pizza-al-pesto-still-life-ok.jpg" class="card-img-top"
+                        alt="Pizza Di Pesto">
+                    <div class="card-body">
+                        <h5 class="card-title">Pizza Di Pesto</h5>
+                        <p class="card-text">Molho pesto, tomate seco, mussarela de búfala e nozes.</p>
+                        <p class="price">R$ 65,90</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pizza de Frutos do Mar -->
+            <div class="col">
+                <div class="pizza-item card h-100">
+                    <img src="https://www.mmo.co.mz/wp-content/uploads/2024/09/Pizza-de-mariscos-Receitas.webp" class="card-img-top"
+                        alt="Pizza de Frutos do Mar">
+                    <div class="card-body">
+                        <h5 class="card-title">Pizza de Frutos do Mar</h5>
+                        <p class="card-text">Camarões, lula, alho e azeite de oliva.</p>
+                        <p class="price">R$ 79,90</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pizza Capricciosa -->
+            <div class="col">
+                <div class="pizza-item card h-100">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvIZMqrpXILk-0Q3aJPdnUxcNeeIAyzTH2SA&s" class="card-img-top"
+                        alt="Pizza Capricciosa">
+                    <div class="card-body">
+                        <h5 class="card-title">Pizza Capricciosa</h5>
+                        <p class="card-text">Presunto, cogumelos, alcachofra e azeitonas.</p>
+                        <p class="price">R$ 55,90</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Pizzaria Delícia - Todas as receitas são feitas com ingredientes frescos e de qualidade.</p>
+    </footer>
+
+    <!-- Scripts do Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

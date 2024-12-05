@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bebidas - Pizzaria Delícia</title>
+    <!-- Link para o Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .item-bebida {
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .item-bebida:hover {
+            transform: translateY(-5px);
+        }
+
+        .item-bebida img {
+            border-radius: 10px;
+            max-width: 100%;
+            height: auto;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 50px;
+        }
+
+        .price {
+            font-size: 20px;
+            font-weight: bold;
+            color: #e74c3c;
+        }
+
+        .card-title {
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="bg-dark text-white text-center py-5">
+        <h1>Pizzaria Delícia - Bebidas</h1>
+        <p>Escolha a bebida perfeita para acompanhar sua pizza!</p>
+    </header>
+
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Refrigerantes</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+
+            <!-- Refrigerante Lata -->
+            <div class="col">
+                <div class="item-bebida card h-100">
+                    <img src="https://thumbs.dreamstime.com/b/coca-cola-fanta-latas-do-sprite-22068969.jpg"
+                        class="card-img-top" alt="Refrigerante Lata">
+                    <div class="card-body">
+                        <h5 class="card-title">Refrigerante Lata</h5>
+                        <p class="card-text">Escolha entre Coca-Cola, Sprite e Fanta Laranja.</p>
+                        <p class="price">R$ 5,90</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Refrigerante 1 Litro -->
+            <div class="col">
+                <div class="item-bebida card h-100">
+                    <img src="https://media.istockphoto.com/id/476209536/pt/foto/coca-cola-fanta-e-sprite.jpg?s=612x612&w=0&k=20&c=vdxSfgTFiN-CYeKEq25o6WTJw5FmDcB6pBkT1C8ruQo="
+                        class="card-img-top" alt="Refrigerante 1 Litro">
+                    <div class="card-body">
+                        <h5 class="card-title">Refrigerante 1 Litro</h5>
+                        <p class="card-text">Escolha entre Coca-Cola, Sprite e Fanta Laranja.</p>
+                        <p class="price">R$ 10,90</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Refrigerante 2 Litros -->
+            <div class="col">
+                <div class="item-bebida card h-100">
+                    <img src="https://w7.pngwing.com/pngs/168/926/png-transparent-sprite-fanta-fizzy-drinks-the-coca-cola-company-sprite-food-non-alcoholic-beverage-plastic-bottle-thumbnail.png"
+                        class="card-img-top" alt="Refrigerante 2 Litros">
+                    <div class="card-body">
+                        <h5 class="card-title">Refrigerante 2 Litros</h5>
+                        <p class="card-text">Escolha entre Coca-Cola, Sprite e Fanta Laranja.</p>
+                        <p class="price">R$ 15,90</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <h2 class="text-center my-5">Cervejas Long Neck</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+
+            <!-- Cerveja Long Neck -->
+            <div class="col">
+                <div class="item-bebida card h-100">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXJhNhMlI0hKaWKe4FjrHlgxTPf1VLo__CJQ&s" class="card-img-top"
+                        alt="Cerveja Long Neck">
+                    <div class="card-body">
+                        <h5 class="card-title">Cerveja Long Neck</h5>
+                        <p class="card-text">Escolha entre Heineken, Budweiser e Corona.</p>
+                        <p class="price">R$ 9,90</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <h2 class="text-center my-5">Vinhos Sofisticados</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+
+            <!-- Vinho Tinto -->
+            <div class="col">
+                <div class="item-bebida card h-100">
+                    <img src="https://images.tcdn.com.br/img/img_prod/640192/vinho_tinto_vignale_sangiovese_di_toscana_igt_750ml_19_1_20201214034607.jpg" class="card-img-top"
+                        alt="Vinho Tinto">
+                    <div class="card-body">
+                        <h5 class="card-title">Vinho Tinto</h5>
+                        <p class="card-text">Vinho tinto italiano da região da Toscana, ideal para acompanhar carnes e
+                            pizzas.</p>
+                        <p class="price">R$ 89,90</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Vinho Branco -->
+            <div class="col">
+                <div class="item-bebida card h-100">
+                    <img src="https://pnr.edega.com.br/storage/pnr/posts/p8cpaod7_072428.jpeg" class="card-img-top"
+                        alt="Vinho Branco">
+                    <div class="card-body">
+                        <h5 class="card-title">Vinho Branco</h5>
+                        <p class="card-text">Vinho branco italiano da região do Veneto, perfeito para acompanhar frutos
+                            do mar e pizzas leves.</p>
+                        <p class="price">R$ 79,90</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Vinho Rosé -->
+            <div class="col">
+                <div class="item-bebida card h-100">
+                    <img src="https://images.elle.com.br/2022/08/NIs2tqWg-origin-712-scaled.jpg" class="card-img-top"
+                        alt="Vinho Rosé">
+                    <div class="card-body">
+                        <h5 class="card-title">Vinho Rosé</h5>
+                        <p class="card-text">Vinho rosé italiano da região da Puglia, excelente para acompanhar pizzas
+                            com molhos mais suaves.</p>
+                        <p class="price">R$ 69,90</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <h2 class="text-center my-5">Carta de Harmonização</h2>
+        <div class="card text-center mb-5">
+            <div class="card-body">
+                <h5 class="card-title">Harmonização de Bebidas com Pizzas</h5>
+                <p class="card-text">Para tornar sua refeição ainda mais especial, aqui vão algumas sugestões de
+                    harmonização:</p>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><strong>Pizza Margherita:</strong> Harmonize com um vinho branco suave
+                        ou um refrigerante de limão.</li>
+                    <li class="list-group-item"><strong>Pizza 4 Queijos:</strong> A melhor opção é um vinho tinto
+                        encorpado ou uma cerveja tipo Lager.</li>
+                    <li class="list-group-item"><strong>Pizza de Frutos do Mar:</strong> Experimente um vinho branco
+                        leve ou uma cerveja Weiss.</li>
+                    <li class="list-group-item"><strong>Pizza Capricciosa:</strong> Um vinho rosé acompanha bem ou um
+                        refrescante refrigerante de laranja.</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Pizzaria Delícia - Bebidas selecionadas para acompanhar sua experiência gastronômica.</p>
+    </footer>
+
+    <!-- Scripts do Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
